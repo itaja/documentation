@@ -3,10 +3,13 @@ title: "Introduction"
 description: "Itaja is the merchant of record and monetization infrastructure for African SaaS"
 ---
 
-Itaja is the **merchant of record** and monetization infrastructure for African
-SaaS. One integration to **collect** payments, **bill** customers, manage
-**subscriptions**, and **payout** across Africa — through the mobile money and
-card providers your customers already use.
+Itaja is the **Merchant of Record** for African SaaS and AI products that sell
+globally. Collections, subscriptions, invoicing, tax compliance, disputes, and
+payouts — all handled. You focus on your product.
+
+We are the legal seller of record. Compliance, taxes, and disputes are in our
+name, so selling across borders never means filing paperwork in a country
+you've never visited.
 
 <Note>
   Itaja is in private beta. Access is granted progressively — join the
@@ -14,23 +17,114 @@ card providers your customers already use.
   team.
 </Note>
 
-## What Itaja handles
+## Why Itaja
 
-- **Collections.** Mobile money and card payments through our payment service
-  providers — Kkiapay, FedaPay, and PawaPay at launch — with one integration
-  instead of one per PSP and per country.
-- **Billing and subscriptions.** Invoicing, recurring charges, dunning, and
-  credits, so you don't rebuild a billing engine for each market.
-- **Payouts.** Merchant payouts and reversals, in the currency and rail that
-  fits each market.
-- **Merchant of record.** We sit between you and the payment rails, so
-  compliance, reconciliation, and money movement aren't your problem.
+<Columns>
+  <Column>
+    ### One integration, one contract
 
-## Where to go next
+    **The problem.** Selling across African markets usually means one contract
+    per payment provider and per country, then reconciling everything by hand.
 
-<Card title="Quickstart" icon="rocket" href="/quickstart">
-  Request access, connect a payment provider, and run your first transaction.
-</Card>
-<Card title="Website" icon="globe" href="https://www.getitaja.com">
-  Product details, pricing, and the beta waitlist.
-</Card>
+    **Itaja's answer.** One integration and one contract cover mobile money in
+    Africa and cards and wallets worldwide. You don't hold relationships with
+    payment providers — we do.
+  </Column>
+  <Column>
+    ### Compliance is not your job
+
+    **The problem.** Every country you sell into brings its own tax and
+    regulatory obligations. Most teams either ignore them or drown in them.
+
+    **Itaja's answer.** As your Merchant of Record, we calculate, collect, and
+    remit taxes in each country where you sell. No filing on your side. This
+    isn't an add-on — it's how Itaja works by default.
+  </Column>
+  <Column>
+    ### One rate, nothing hidden
+
+    **The problem.** Processor pricing stacks up: conversion surcharges,
+    recurring-billing fees, card-type supplements, payout fees.
+
+    **Itaja's answer.** One flat rate — **8% + 100 FCFA per transaction**.
+    Nothing is added based on country, payment method, or subscription. The
+    rate you see is the total price. See [Pricing](/merchant-of-record/pricing).
+  </Column>
+</Columns>
+
+## Core features
+
+<CardGroup cols={2}>
+  <Card title="Payments" icon="money-bill">
+    Collect through mobile money in Africa and cards and wallets worldwide,
+    behind a single integration and a single reconciliation.
+  </Card>
+  <Card title="Billing and subscriptions" icon="file-invoice">
+    Recurring billing, invoicing, credits, and license keys — a full billing
+    engine, not just a payment button.
+  </Card>
+  <Card title="Payouts" icon="arrow-right-arrow-left">
+    Your share is settled and paid out to your local account. No entity to
+    create in each market you sell into.
+  </Card>
+  <Card title="Tax and compliance" icon="shield">
+    VAT and local obligations are calculated, collected, and remitted where you
+    sell. Disputes are handled in our name.
+  </Card>
+</CardGroup>
+
+## Quick start
+
+<Steps>
+  <Step title="Get access">
+    Join the waitlist on [getitaja.com](https://www.getitaja.com). We onboard
+    beta teams progressively.
+  </Step>
+  <Step title="Get your credentials">
+    Once onboarded, you receive your dashboard access and API credentials for
+    the sandbox environment.
+  </Step>
+  <Step title="Create your first payment">
+    Create a payment link from your dashboard or through the API — no frontend
+    work needed for a first transaction.
+  </Step>
+  <Step title="Verify your webhook">
+    Point a webhook endpoint at your backend and verify the event signature, so
+    your app stays in sync with every payment.
+  </Step>
+  <Step title="Go live">
+    Switch from sandbox to production and complete your Merchant of Record
+    onboarding. See the [Quickstart](/quickstart).
+  </Step>
+</Steps>
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="How fast can I start accepting payments?">
+    Once onboarded, most teams go from zero to a first test payment in minutes:
+    create a payment, share the link. Going live depends on completing your
+    Merchant of Record onboarding.
+  </Accordion>
+  <Accordion title="What payment methods can my customers use?">
+    Bank cards and crypto are supported in every covered country. Mobile money
+    coverage varies by country and operator — check the live coverage table on
+    [getitaja.com](https://www.getitaja.com).
+  </Accordion>
+  <Accordion title="How does pricing work?">
+    One flat rate of 8% + 100 FCFA per successful transaction. The 100 FCFA
+    fixed fee is always borne by the end customer; the 8% is borne by you or
+    passed to the customer — your choice. Nothing is added based on country,
+    payment method, or subscription.
+  </Accordion>
+  <Accordion title="How is Itaja different from a payment processor?">
+    A payment processor moves money — tax compliance, filings, and disputes
+    remain yours. Itaja is a Merchant of Record: we are the legal seller, so
+    tax, compliance, and disputes are handled in our name, and you don't need
+    your own payment license or local entity to sell.
+  </Accordion>
+  <Accordion title="Who is Itaja for?">
+    African SaaS and AI creators who sell to customers in Africa and worldwide
+    and don't want to become payment, tax, and compliance experts to do it.
+  </Accordion>
+</AccordionGroup>

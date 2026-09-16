@@ -11,9 +11,7 @@ in private beta, so the first step is getting access.
 Before you begin, you need:
 
 - An Itaja account — granted during beta onboarding (see step 1)
-- A sandbox account with at least one supported payment provider:
-  [Kkiapay](https://kkiapay.me), [FedaPay](https://fedapay.com), or
-  [PawaPay](https://pawaPay.com), with sandbox API credentials
+- Sandbox credentials for a payment provider you want to test with
 - A backend or serverless function able to receive webhooks
 
 ## Get started
@@ -25,13 +23,13 @@ Before you begin, you need:
     credentials.
   </Step>
   <Step title="Connect a payment provider">
-    In your Itaja dashboard, add the sandbox API credentials of the provider
-    you want to test with — Kkiapay, FedaPay, or PawaPay. You can connect
-    several providers and let Itaja route between them.
+    In your Itaja dashboard, add the sandbox credentials of the provider you
+    want to test with. You can connect several providers and let Itaja route
+    between them.
   </Step>
   <Step title="Create your first payment">
     Create a payment from your dashboard or through the API. You get a hosted
-    checkout link you can send to a test customer — no frontend work required
+    payment link you can send to a test customer — no frontend work required
     for the first transaction.
   </Step>
   <Step title="Verify the webhook">
@@ -42,7 +40,7 @@ Before you begin, you need:
   <Step title="Go live">
     When your integration is verified end to end, switch your provider
     credentials from sandbox to production in the dashboard, and complete the
-    merchant-of-record onboarding for your entity.
+    merchant-of-record onboarding for your business.
   </Step>
 </Steps>
 

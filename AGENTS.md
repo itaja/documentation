@@ -33,9 +33,12 @@
 
 - Itaja is in **private beta** (since September 2026). Do not write as if the
   product were generally available.
+- Never name payment partners, PSPs, or operators in public docs. Write
+  "licensed payment providers" — the contractual relationships are Itaja's,
+  and partners are not part of the public story.
 - Never invent statistics, market figures, customer names, testimonials, or
-  usage numbers. Verified claims only.
+  usage numbers. Verified claims only — pricing (8% + 100 FCFA), coverage
+  (cards and crypto everywhere, mobile money varies by country), and company
+  facts (operated by Lixali Studio, LLC) come from the marketing site.
 - Do not document endpoints, dashboard paths, or credentials that are not
   confirmed by the engineering team.
-- Legal fields that depend on the operating entity (RCCM, jurisdiction) stay
-  unfilled until the entity choice is final.

@@ -26,12 +26,43 @@
     "href": "https://www.getitaja.com"
   },
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
+        "tab": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Merchant of Record",
+            "icon": "landmark",
+            "pages": [
+              "merchant-of-record/what-is-mor",
+              "merchant-of-record/how-itaja-works",
+              "merchant-of-record/compliance",
+              "merchant-of-record/pricing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "icon": "compass",
         "pages": [
-          "index",
-          "quickstart"
+          "guides/index"
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "terminal",
+        "pages": [
+          "api-reference/index"
         ]
       }
     ],

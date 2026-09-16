@@ -26,6 +26,24 @@ The logo mark is the *portique* (two posts and an arch): `logo/light.svg` in
 nuit minérale on ivory, `logo/dark.svg` in ivory on nuit minérale. The copper
 `#C0703A` is a fill color only — it never appears as text.
 
+## Structure
+
+```
+├── docs.json                    # site configuration (brand tokens, navigation)
+├── index.mdx                    # Introduction (Documentation tab)
+├── quickstart.mdx
+├── merchant-of-record/          # the MoR section
+│   ├── what-is-mor.mdx
+│   ├── how-itaja-works.mdx
+│   ├── compliance.mdx
+│   └── pricing.mdx
+├── guides/index.mdx             # coming soon
+└── api-reference/index.mdx      # coming soon
+```
+
+Navigation is organized in three tabs — **Documentation**, **Guides**, and
+**API Reference** — configured in `docs.json`.
+
 ## Development
 
 Install the [Mintlify CLI](https://www.npmjs.com/package/mint):

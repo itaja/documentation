@@ -1,0 +1,65 @@
+---
+title: "How Itaja works"
+description: "The lifecycle of a payment, from checkout to payout"
+---
+
+Itaja is not a checkout button. It's everything that happens after the click
+on **pay**: orchestration between payment providers, billing, tax, and getting
+your money back to you.
+
+## The lifecycle of a payment
+
+<Steps>
+  <Step title="Your customer pays">
+    They check out through a hosted payment link or a flow you built on the
+    API. They pay with the methods available in their country — mobile money,
+    card, or wallet.
+  </Step>
+  <Step title="Itaja collects as the seller of record">
+    The collection is operated by licensed payment providers. We hold the
+    contractual relationships with them — that's the separation that lets you
+    collect without your own payment license.
+  </Step>
+  <Step title="Taxes are handled at the source">
+    VAT and local obligations in the customer's country are calculated,
+    collected, and remitted. Nothing to file on your side.
+  </Step>
+  <Step title="Your share is settled">
+    Your commission — the price minus the Itaja rate — is recorded in your
+    dashboard, transaction by transaction.
+  </Step>
+  <Step title="You get paid out">
+    Your balance is paid out to your local account on your payout schedule. No
+    entity to create in each market.
+  </Step>
+</Steps>
+
+## What Itaja operates
+
+<CardGroup cols={2}>
+  <Card title="Payment links" icon="link">
+    Hosted, no-code checkout you can generate from the dashboard and share
+    anywhere.
+  </Card>
+  <Card title="Collection API" icon="plug">
+    Programmatic payment creation for flows embedded in your own product.
+  </Card>
+  <Card title="Billing" icon="file-invoice">
+    Subscriptions, invoicing, credits, and license keys on one engine.
+  </Card>
+  <Card title="Provider orchestration" icon="arrows-rotate">
+    Routing and reconciliation across payment providers, behind one contract.
+  </Card>
+  <Card title="Webhooks" icon="tower-broadcast">
+    Signed events that keep your backend in sync with every payment state.
+  </Card>
+  <Card title="Payouts" icon="money-bill-transfer">
+    Settlement of your share and payouts to your local account.
+  </Card>
+</CardGroup>
+
+## What stays yours
+
+You keep your product, your pricing, your brand, and your customer
+relationship. What moves to Itaja is the legal and financial machinery of the
+sale — the part that was never your differentiator.
