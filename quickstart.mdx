@@ -1,47 +1,53 @@
 ---
 title: "Quickstart"
-description: "Begin with a guide on the fastest path to a successful outcome"
+description: "From waitlist to your first collected payment"
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
-
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+This guide takes you from zero to your first transaction with Itaja. Itaja is
+in private beta, so the first step is getting access.
 
 ## Prerequisites
 
-Before you begin, you must have:
+Before you begin, you need:
 
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
+- An Itaja account — granted during beta onboarding (see step 1)
+- A sandbox account with at least one supported payment provider:
+  [Kkiapay](https://kkiapay.me), [FedaPay](https://fedapay.com), or
+  [PawaPay](https://pawaPay.com), with sandbox API credentials
+- A backend or serverless function able to receive webhooks
 
 ## Get started
 
 <Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
-
-    ```bash
-    npm install your-package
-    ```
+  <Step title="Request access">
+    Join the waitlist on [getitaja.com](https://www.getitaja.com). Once your
+    team is onboarded, you receive access to your dashboard and your API
+    credentials.
   </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
-
-    ```bash
-    your-cli init
-    ```
+  <Step title="Connect a payment provider">
+    In your Itaja dashboard, add the sandbox API credentials of the provider
+    you want to test with — Kkiapay, FedaPay, or PawaPay. You can connect
+    several providers and let Itaja route between them.
   </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
-
-    ```bash
-    your-cli start
-    ```
+  <Step title="Create your first payment">
+    Create a payment from your dashboard or through the API. You get a hosted
+    checkout link you can send to a test customer — no frontend work required
+    for the first transaction.
+  </Step>
+  <Step title="Verify the webhook">
+    Itaja notifies your backend on every payment event. Point a webhook
+    endpoint at your backend, verify the event signature, and confirm the
+    payment is marked as settled in your dashboard.
+  </Step>
+  <Step title="Go live">
+    When your integration is verified end to end, switch your provider
+    credentials from sandbox to production in the dashboard, and complete the
+    merchant-of-record onboarding for your entity.
   </Step>
 </Steps>
 
 <Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
-
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
+  Questions during onboarding? Reach out through
+  [getitaja.com](https://www.getitaja.com) — we answer every beta request
+  personally.
 </Tip>

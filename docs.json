@@ -1,13 +1,30 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Itaja",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0E5F52",
+    "light": "#5FB8A3",
+    "dark": "#0A4A40"
   },
   "favicon": "/favicon.svg",
+  "fonts": {
+    "family": "Rubik",
+    "heading": {
+      "family": "Bricolage Grotesque"
+    }
+  },
+  "background": {
+    "color": {
+      "light": "#FAF8F3",
+      "dark": "#0A1F1B"
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://www.getitaja.com"
+  },
   "navigation": {
     "pages": [
       {
@@ -21,33 +38,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Website",
+          "href": "https://www.getitaja.com",
+          "icon": "globe"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Join the beta",
+      "href": "https://www.getitaja.com"
     }
   },
   "contextual": {
@@ -64,9 +66,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/itaja"
     }
   }
 }
