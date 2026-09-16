@@ -1,0 +1,80 @@
+---
+title: "¿Qué es un merchant of record?"
+description: "El modelo del vendedor legal detrás de Itaja — y quiénes somos"
+---
+
+Un **merchant of record (MoR)** es el vendedor legal de una transacción.
+Cuando un cliente paga, el MoR es la parte cuyo nombre figura en la venta:
+responde del cálculo, la recaudación y la transferencia de impuestos, del
+cumplimiento regulatorio en cada mercado, y de las disputas y reembolsos.
+
+Si vendes software al extranjero sin un MoR, todo eso es tuyo: un conjunto de
+obligaciones por país, por régimen fiscal, por método de pago.
+
+Con un MoR, nada de eso te pertenece.
+
+## ¿MoR, procesador o pasarela?
+
+Estos tres roles se confunden a menudo. Se sitúan a distintas profundidades de
+la misma transacción.
+
+| | Pasarela | Procesador de pagos | Merchant of record |
+|---|---|---|---|
+| **Mueve el dinero** | No | Sí | Sí |
+| **Vendedor legal de la transacción** | No | No | Sí |
+| **Cálculo, declaración y transferencia de impuestos** | No | No | Sí |
+| **Disputas y contracargos** | No | No | Sí |
+| **Entidad o licencia local necesaria** | Sí | Sí | No |
+
+Una pasarela te conecta con proveedores. Un procesador mueve el dinero. Solo
+un merchant of record asume el lado legal de la venta — esa es la capa que
+opera Itaja.
+
+## Quiénes somos
+
+Itaja es un merchant of record y una infraestructura de monetización
+concebidos para creadores africanos de SaaS e IA. El servicio lo opera
+**Lixali Studio, LLC**, constituida en Delaware (Estados Unidos), por un
+equipo basado en África Occidental.
+
+Existimos por una asimetría que nosotros mismos vivimos: los constructores
+africanos pueden llegar a clientes en cualquier lugar, pero la fontanería para
+cobrar a través de los mercados africanos — varios proveedores, un contrato
+cada uno, conciliación manual, cumplimiento local — estaba pensada para
+empresas, no para equipos de producto.
+
+Itaja comprime esa fontanería en una integración y un contrato:
+
+- **Cobros** a través de los métodos de pago que tus clientes usan de verdad
+  — mobile money en África, tarjetas y wallets en el mundo.
+- **Billing** — suscripciones, facturas, créditos y license keys.
+- **Cumplimiento** — impuestos y obligaciones locales calculados, recaudados
+  y transferidos donde vendes.
+- **Pagos** — tu parte liquidada y transferida a tu cuenta local.
+
+Los cobros los operan proveedores de pago con licencia con quienes mantenemos
+las relaciones contractuales. Esa separación es exactamente lo que te permite
+cobrar sin tener una licencia de pagos ni crear una entidad en cada mercado
+donde vendes.
+
+## ¿Necesitas un MoR?
+
+<CardGroup cols={2}>
+  <Card title="Un MoR encaja si…" icon="check">
+    - Vendes a clientes en varios países
+    - No tienes (o no quieres) una entidad local en cada mercado
+    - Prefieres no convertirte en experto en impuestos y cumplimiento
+    - Quieres que gestionen las disputas y reembolsos por ti
+  </Card>
+  <Card title="Quizá no lo necesites si…" icon="minus">
+    - Vendes solo en tu país de residencia
+    - Ya tienes entidades y declaraciones cubiertas
+    - De verdad quieres operar tú mismo el lado de los pagos
+  </Card>
+</CardGroup>
+
+<Note>
+  Itaja está en beta privada. Si estás evaluando si el modelo MoR encaja en tu
+  producto, [escríbenos](https://www.getitaja.com) — embarcamos a los equipos
+  de forma progresiva y te diremos con honestidad si no encaja.
+</Note>

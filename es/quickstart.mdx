@@ -1,0 +1,51 @@
+---
+title: "Guía de inicio"
+description: "De la lista de espera a tu primer pago cobrado"
+---
+
+Esta guía te lleva de cero a tu primera transacción con Itaja. Itaja está en
+beta privada, así que el primer paso es conseguir acceso.
+
+## Requisitos previos
+
+Antes de empezar, necesitas:
+
+- Una cuenta de Itaja — concedida durante el onboarding beta (paso 1)
+- Credenciales sandbox de un proveedor de pagos con el que quieras probar
+- Un backend o función serverless capaz de recibir webhooks
+
+## Empezar
+
+<Steps>
+  <Step title="Solicita acceso">
+    Únete a la lista de espera en [getitaja.com](https://www.getitaja.com).
+    Una vez embarcado tu equipo, recibes acceso a tu panel y tus credenciales
+    API.
+  </Step>
+  <Step title="Conecta un proveedor de pagos">
+    En tu panel de Itaja, añade las credenciales sandbox del proveedor con el
+    que quieras probar. Puedes conectar varios proveedores y dejar que Itaja
+    enrute entre ellos.
+  </Step>
+  <Step title="Crea tu primer pago">
+    Crea un pago desde tu panel o a través de la API. Obtienes un enlace de
+    pago alojado que puedes enviar a un cliente de prueba — sin trabajo de
+    frontend para la primera transacción.
+  </Step>
+  <Step title="Verifica el webhook">
+    Itaja notifica a tu backend en cada evento de pago. Apunta un endpoint
+    webhook a tu backend, verifica la firma del evento y confirma que el pago
+    aparece como liquidado en tu panel.
+  </Step>
+  <Step title="Sal a producción">
+    Cuando tu integración esté verificada de extremo a extremo, cambia las
+    credenciales de sandbox a producción en el panel y completa el onboarding
+    como merchant of record de tu empresa.
+  </Step>
+</Steps>
+
+<Tip>
+  ¿Preguntas durante el onboarding? Escríbenos a través de
+  [getitaja.com](https://www.getitaja.com) — respondemos personalmente cada
+  solicitud beta.
+</Tip>

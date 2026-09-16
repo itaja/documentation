@@ -28,21 +28,27 @@ nuit minérale on ivory, `logo/dark.svg` in ivory on nuit minérale. The copper
 
 ## Structure
 
+The docs are **trilingual**: English at the root (default), French in `fr/`,
+Spanish in `es/` — same file names and structure in each directory. Language
+switcher and per-language navigation labels are configured in `docs.json`
+(`navigation.languages`).
+
 ```
-├── docs.json                    # site configuration (brand tokens, navigation)
-├── index.mdx                    # Introduction (Documentation tab)
-├── quickstart.mdx
-├── merchant-of-record/          # the MoR section
-│   ├── what-is-mor.mdx
-│   ├── how-itaja-works.mdx
-│   ├── compliance.mdx
-│   └── pricing.mdx
-├── guides/index.mdx             # coming soon
-└── api-reference/index.mdx      # coming soon
+├── docs.json                    # site configuration (brand tokens, i18n navigation)
+├── index.mdx · quickstart.mdx   # English (default)
+├── merchant-of-record/          # the MoR section (en)
+├── guides/index.mdx             # coming soon (en)
+├── api-reference/index.mdx      # coming soon (en)
+├── fr/                          # French mirror
+│   ├── index.mdx · quickstart.mdx
+│   ├── merchant-of-record/ …
+│   ├── guides/index.mdx
+│   └── api-reference/index.mdx
+└── es/                          # Spanish mirror (same shape)
 ```
 
 Navigation is organized in three tabs — **Documentation**, **Guides**, and
-**API Reference** — configured in `docs.json`.
+**API Reference** — per language, configured in `docs.json`.
 
 ## Development
 

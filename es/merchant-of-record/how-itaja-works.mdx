@@ -1,0 +1,68 @@
+---
+title: "Cómo funciona Itaja"
+description: "El ciclo de vida de un pago, del checkout al pago final"
+---
+
+Itaja no es un botón de pago. Es todo lo que ocurre después del clic en
+**pagar**: orquestación entre proveedores, billing, impuestos, y el regreso de
+tu dinero hacia ti.
+
+## El ciclo de vida de un pago
+
+<Steps>
+  <Step title="Tu cliente paga">
+    Pasa por un enlace de pago alojado o por un flujo que construiste sobre la
+    API. Paga con los métodos disponibles en su país — mobile money, tarjeta o
+    wallet.
+  </Step>
+  <Step title="Itaja cobra como vendedor de la transacción">
+    La recaudación la operan proveedores de pago con licencia. Mantenemos
+    nosotros las relaciones contractuales con ellos — esa separación te permite
+    cobrar sin una licencia de pagos propia.
+  </Step>
+  <Step title="Los impuestos se gestionan en origen">
+    El IVA y las obligaciones locales del país del cliente se calculan,
+    recaudan y transfieren. Nada que declarar de tu parte.
+  </Step>
+  <Step title="Tu parte se liquida">
+    Tu comisión — el precio menos la tarifa de Itaja — queda registrada en tu
+    panel, transacción a transacción.
+  </Step>
+  <Step title="Recibes tu pago">
+    Tu saldo se paga a tu cuenta local según tu calendario de pagos. Ninguna
+    entidad que crear en cada mercado.
+  </Step>
+</Steps>
+
+## Lo que opera Itaja
+
+<CardGroup cols={2}>
+  <Card title="Enlaces de pago" icon="link">
+    Checkout alojado sin código, generable desde el panel y compartible en
+    cualquier parte.
+  </Card>
+  <Card title="API de cobros" icon="plug">
+    Creación de pagos por programa, para flujos integrados en tu propio
+    producto.
+  </Card>
+  <Card title="Billing" icon="file-invoice">
+    Suscripciones, facturas, créditos y license keys sobre un solo motor.
+  </Card>
+  <Card title="Orquestación de proveedores" icon="arrows-rotate">
+    Enrutamiento y conciliación entre proveedores de pago, detrás de un solo
+    contrato.
+  </Card>
+  <Card title="Webhooks" icon="tower-broadcast">
+    Eventos firmados que mantienen tu backend sincronizado con cada estado del
+    pago.
+  </Card>
+  <Card title="Pagos" icon="money-bill-transfer">
+    Liquidación de tu parte y pagos a tu cuenta local.
+  </Card>
+</CardGroup>
+
+## Lo que sigue siendo tuyo
+
+Conservas tu producto, tus precios, tu marca y tu relación con el cliente. Lo
+que pasa a Itaja es la maquinaria legal y financiera de la venta — la parte
+que nunca fue tu diferencial.

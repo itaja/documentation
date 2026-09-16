@@ -19,8 +19,11 @@
 
 ## Style preferences
 
-- Write in **English** — developer docs are English even though the marketing
-  site is trilingual
+- Write in **English, French, or Spanish** — the docs are trilingual, matching
+  the marketing site. English is the default language; translations live in
+  `fr/` and `es/` directories that mirror the root structure, with
+  language-specific navigation labels and internal links (`/fr/…`, `/es/…`).
+  Keep the three versions in parity: same pages, same structure.
 - Use active voice and second person ("you")
 - Keep sentences concise — one idea per sentence
 - Use sentence case for headings

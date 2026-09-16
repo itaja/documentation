@@ -1,0 +1,139 @@
+---
+title: "Introduction"
+description: "Itaja est le merchant of record et l'infrastructure de monétisation des SaaS africains"
+---
+
+Itaja est le **merchant of record** des SaaS et produits d'IA africains qui
+vendent dans le monde entier. Encaissement, abonnements, facturation,
+conformité fiscale, litiges et reversements — tout est géré. Vous vous
+concentrez sur votre produit.
+
+Nous sommes le vendeur légal de la transaction. La conformité, les taxes et
+les litiges sont à notre nom : vendre à l'étranger ne signifie plus jamais
+remplir des dossiers dans un pays où vous n'êtes jamais allé.
+
+<Note>
+  Itaja est en bêta privée. L'accès est accordé progressivement — rejoignez la
+  liste d'attente sur [getitaja.com](https://www.getitaja.com) et nous
+  embarquons votre équipe.
+</Note>
+
+## Pourquoi Itaja
+
+<Columns>
+  <Column>
+    ### Une intégration, un contrat
+
+    **Le problème.** Vendre à travers les marchés africains, c'est un contrat
+    par prestataire et par pays, puis une réconciliation manuelle de tout cela.
+
+    **La réponse d'Itaja.** Une intégration et un contrat couvrent le mobile
+    money en Afrique, et les cartes et wallets dans le monde. Vous ne détenez
+    aucune relation avec les prestataires de paiement — nous, si.
+  </Column>
+  <Column>
+    ### La conformité n'est pas votre travail
+
+    **Le problème.** Chaque pays où vous vendez ajoute ses propres obligations
+    fiscales et réglementaires. La plupart des équipes les ignorent — ou s'y
+    noient.
+
+    **La réponse d'Itaja.** Comme votre merchant of record, nous calculons,
+    collectons et reversons les taxes dans chaque pays où vous vendez. Rien à
+    déclarer de votre côté. Ce n'est pas une option — c'est ainsi qu'Itaja
+    fonctionne par défaut.
+  </Column>
+  <Column>
+    ### Un seul taux, rien de caché
+
+    **Le problème.** La facturation des processeurs s'empile : suppléments de
+    conversion, frais d'abonnement récurrent, suppléments par type de carte.
+
+    **La réponse d'Itaja.** Un taux unique — **8 % + 100 FCFA par
+    transaction**. Rien ne s'ajoute, ni selon le pays, ni selon le moyen de
+    paiement, ni sur les abonnements. Voir [Tarifs](/fr/merchant-of-record/pricing).
+  </Column>
+</Columns>
+
+## Fonctionnalités clés
+
+<CardGroup cols={2}>
+  <Card title="Encaissement" icon="money-bill">
+    Encaissez via le mobile money en Afrique et les cartes et wallets dans le
+    monde, derrière une seule intégration et une seule réconciliation.
+  </Card>
+  <Card title="Facturation et abonnements" icon="file-invoice">
+    Facturation récurrente, factures, crédits et licence keys — un moteur de
+    billing complet, pas un simple bouton de paiement.
+  </Card>
+  <Card title="Reversements" icon="arrow-right-arrow-left">
+    Votre part est règlée et reversée sur votre compte local. Aucune entité à
+    créer dans chaque marché où vous vendez.
+  </Card>
+  <Card title="Taxes et conformité" icon="shield">
+    La TVA et les obligations locales sont calculées, collectées et reversées
+    où vous vendez. Les litiges sont gérés à notre nom.
+  </Card>
+</CardGroup>
+
+## Démarrage rapide
+
+<Steps>
+  <Step title="Obtenez l'accès">
+    Rejoignez la liste d'attente sur
+    [getitaja.com](https://www.getitaja.com). Nous embarquons les équipes
+    bêta progressivement.
+  </Step>
+  <Step title="Recevez vos identifiants">
+    Une fois embarqué, vous recevez l'accès à votre tableau de bord et vos
+    identifiants API pour l'environnement sandbox.
+  </Step>
+  <Step title="Créez votre premier paiement">
+    Créez un lien de paiement depuis votre tableau de bord ou via l'API —
+    aucun travail frontend n'est nécessaire pour une première transaction.
+  </Step>
+  <Step title="Vérifiez votre webhook">
+    Pointez un endpoint webhook vers votre backend et vérifiez la signature de
+    l'événement, pour que votre application reste synchronisée à chaque
+    paiement.
+  </Step>
+  <Step title="Passez en production">
+    Basculez du sandbox vers la production et complétez votre onboarding
+    merchant of record. Voir le [Guide de démarrage](/fr/quickstart).
+  </Step>
+</Steps>
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="En combien de temps puis-je encaisser ?">
+    Une fois embarqué, la plupart des équipes passent de zéro à un premier
+    paiement test en quelques minutes : créez un paiement, partagez le lien.
+    La mise en production dépend de la complétion de votre onboarding
+    merchant of record.
+  </Accordion>
+  <Accordion title="Quels moyens de paiement mes clients peuvent-ils utiliser ?">
+    Les cartes bancaires et la crypto sont supportées dans chaque pays couvert.
+    La couverture mobile money varie selon les pays et les opérateurs —
+    consultez la table de couverture sur
+    [getitaja.com](https://www.getitaja.com).
+  </Accordion>
+  <Accordion title="Comment fonctionne la tarification ?">
+    Un taux unique de 8 % + 100 FCFA par transaction réussie. Les 100 FCFA
+    fixes sont toujours portés par le client final ; les 8 % sont portés par
+    vous ou répercutés sur le client — à votre choix. Rien ne s'ajoute selon
+    le pays, le moyen de paiement ou l'abonnement.
+  </Accordion>
+  <Accordion title="Quelle est la différence entre Itaja et un processeur de paiement ?">
+    Un processeur déplace l'argent — la conformité fiscale, les déclarations
+    et les litiges restent les vôtres. Itaja est un merchant of record : nous
+    sommes le vendeur légal, donc les taxes, la conformité et les litiges sont
+    gérés à notre nom, et vous n'avez pas besoin de licence de paiement ni
+    d'entité locale pour vendre.
+  </Accordion>
+  <Accordion title="À qui s'adresse Itaja ?">
+    Aux créateurs africains de SaaS et de produits d'IA qui vendent en Afrique
+    et dans le monde, et ne veulent pas devenir des experts en paiement, en
+    taxes et en conformité pour le faire.
+  </Accordion>
+</AccordionGroup>

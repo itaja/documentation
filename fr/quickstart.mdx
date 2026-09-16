@@ -1,0 +1,53 @@
+---
+title: "Guide de démarrage"
+description: "De la liste d'attente à votre premier paiement encaissé"
+---
+
+Ce guide vous mène de zéro à votre première transaction avec Itaja. Itaja est
+en bêta privée : la première étape est donc d'obtenir l'accès.
+
+## Prérequis
+
+Avant de commencer, vous avez besoin de :
+
+- Un compte Itaja — accordé pendant l'onboarding bêta (étape 1)
+- Des identifiants sandbox pour un prestataire de paiement avec lequel vous
+  voulez tester
+- Un backend ou une fonction serverless capable de recevoir des webhooks
+
+## Commencer
+
+<Steps>
+  <Step title="Demandez l'accès">
+    Rejoignez la liste d'attente sur [getitaja.com](https://www.getitaja.com).
+    Une fois votre équipe embarquée, vous recevez l'accès à votre tableau de
+    bord et vos identifiants API.
+  </Step>
+  <Step title="Connectez un prestataire de paiement">
+    Dans votre tableau de bord Itaja, ajoutez les identifiants sandbox du
+    prestataire avec lequel vous voulez tester. Vous pouvez connecter
+    plusieurs prestataires et laisser Itaja router entre eux.
+  </Step>
+  <Step title="Créez votre premier paiement">
+    Créez un paiement depuis votre tableau de bord ou via l'API. Vous obtenez
+    un lien de paiement hébergé que vous pouvez envoyer à un client de test —
+    aucun travail frontend n'est requis pour la première transaction.
+  </Step>
+  <Step title="Vérifiez le webhook">
+    Itaja notifie votre backend à chaque événement de paiement. Pointez un
+    endpoint webhook vers votre backend, vérifiez la signature de l'événement
+    et confirmez que le paiement est marqué comme réglé dans votre tableau de
+    bord.
+  </Step>
+  <Step title="Passez en production">
+    Quand votre intégration est vérifiée de bout en bout, basculez les
+    identifiants de sandbox à production dans le tableau de bord, et complétez
+    l'onboarding merchant of record de votre entreprise.
+  </Step>
+</Steps>
+
+<Tip>
+  Des questions pendant l'onboarding ? Écrivez-nous via
+  [getitaja.com](https://www.getitaja.com) — nous répondons personnellement à
+  chaque demande bêta.
+</Tip>

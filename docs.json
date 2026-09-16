@@ -26,46 +26,6 @@
     "href": "https://www.getitaja.com"
   },
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Documentation",
-        "icon": "book-open",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "icon": "rocket",
-            "pages": [
-              "index",
-              "quickstart"
-            ]
-          },
-          {
-            "group": "Merchant of Record",
-            "icon": "landmark",
-            "pages": [
-              "merchant-of-record/what-is-mor",
-              "merchant-of-record/how-itaja-works",
-              "merchant-of-record/compliance",
-              "merchant-of-record/pricing"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Guides",
-        "icon": "compass",
-        "pages": [
-          "guides/index"
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "terminal",
-        "pages": [
-          "api-reference/index"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -74,14 +34,159 @@
           "icon": "globe"
         }
       ]
-    }
-  },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Join the beta",
-      "href": "https://www.getitaja.com"
-    }
+    },
+    "languages": [
+      {
+        "language": "en",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Join the beta",
+            "href": "https://www.getitaja.com"
+          }
+        },
+        "tabs": [
+          {
+            "tab": "Documentation",
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "icon": "rocket",
+                "pages": [
+                  "index",
+                  "quickstart"
+                ]
+              },
+              {
+                "group": "Merchant of Record",
+                "icon": "landmark",
+                "pages": [
+                  "merchant-of-record/what-is-mor",
+                  "merchant-of-record/how-itaja-works",
+                  "merchant-of-record/compliance",
+                  "merchant-of-record/pricing"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Guides",
+            "icon": "compass",
+            "pages": [
+              "guides/index"
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "icon": "terminal",
+            "pages": [
+              "api-reference/index"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Rejoindre la bêta",
+            "href": "https://www.getitaja.com"
+          }
+        },
+        "tabs": [
+          {
+            "tab": "Documentation",
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Pour commencer",
+                "icon": "rocket",
+                "pages": [
+                  "fr/index",
+                  "fr/quickstart"
+                ]
+              },
+              {
+                "group": "Merchant of Record",
+                "icon": "landmark",
+                "pages": [
+                  "fr/merchant-of-record/what-is-mor",
+                  "fr/merchant-of-record/how-itaja-works",
+                  "fr/merchant-of-record/compliance",
+                  "fr/merchant-of-record/pricing"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Guides",
+            "icon": "compass",
+            "pages": [
+              "fr/guides/index"
+            ]
+          },
+          {
+            "tab": "Référence API",
+            "icon": "terminal",
+            "pages": [
+              "fr/api-reference/index"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "navbar": {
+          "primary": {
+            "type": "button",
+            "label": "Únete a la beta",
+            "href": "https://www.getitaja.com"
+          }
+        },
+        "tabs": [
+          {
+            "tab": "Documentación",
+            "icon": "book-open",
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "icon": "rocket",
+                "pages": [
+                  "es/index",
+                  "es/quickstart"
+                ]
+              },
+              {
+                "group": "Merchant of Record",
+                "icon": "landmark",
+                "pages": [
+                  "es/merchant-of-record/what-is-mor",
+                  "es/merchant-of-record/how-itaja-works",
+                  "es/merchant-of-record/compliance",
+                  "es/merchant-of-record/pricing"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Guías",
+            "icon": "compass",
+            "pages": [
+              "es/guides/index"
+            ]
+          },
+          {
+            "tab": "Referencia de la API",
+            "icon": "terminal",
+            "pages": [
+              "es/api-reference/index"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "contextual": {
     "options": [

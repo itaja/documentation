@@ -1,0 +1,68 @@
+---
+title: "Comment Itaja fonctionne"
+description: "Le cycle de vie d'un paiement, du checkout au reversement"
+---
+
+Itaja n'est pas un bouton de paiement. C'est tout ce qui se passe après le
+clic sur **payer** : orchestration entre prestataires, billing, taxes, et le
+retour de votre argent vers vous.
+
+## Le cycle de vie d'un paiement
+
+<Steps>
+  <Step title="Votre client paie">
+    Il passe par un lien de paiement hébergé ou un parcours que vous avez
+    construit sur l'API. Il paie avec les moyens disponibles dans son pays —
+    mobile money, carte ou wallet.
+  </Step>
+  <Step title="Itaja encaisse comme vendeur de la transaction">
+    La collecte est opérée par des prestataires de paiement agréés. Nous
+    détenons les relations contractuelles avec eux — c'est cette séparation
+    qui vous permet d'encaisser sans licence de paiement propre.
+  </Step>
+  <Step title="Les taxes sont gérées à la source">
+    La TVA et les obligations locales du pays du client sont calculées,
+    collectées et reversées. Rien à déclarer de votre côté.
+  </Step>
+  <Step title="Votre part est réglée">
+    Votre commission — le prix moins le taux Itaja — est enregistrée dans
+    votre tableau de bord, transaction par transaction.
+  </Step>
+  <Step title="Vous êtes reversé">
+    Votre solde est reversé sur votre compte local selon votre calendrier de
+    reversement. Aucune entité à créer dans chaque marché.
+  </Step>
+</Steps>
+
+## Ce qu'Itaja opère
+
+<CardGroup cols={2}>
+  <Card title="Liens de paiement" icon="link">
+    Checkout hébergé sans code, générable depuis le tableau de bord et
+    partageable partout.
+  </Card>
+  <Card title="API d'encaissement" icon="plug">
+    Création de paiements par programme, pour des parcours intégrés à votre
+    propre produit.
+  </Card>
+  <Card title="Billing" icon="file-invoice">
+    Abonnements, factures, crédits et licence keys sur un seul moteur.
+  </Card>
+  <Card title="Orchestration des prestataires" icon="arrows-rotate">
+    Routage et réconciliation entre prestataires de paiement, derrière un
+    seul contrat.
+  </Card>
+  <Card title="Webhooks" icon="tower-broadcast">
+    Des événements signés qui gardent votre backend synchronisé avec chaque
+    état de paiement.
+  </Card>
+  <Card title="Reversements" icon="money-bill-transfer">
+    Règlement de votre part et reversements sur votre compte local.
+  </Card>
+</CardGroup>
+
+## Ce qui reste chez vous
+
+Vous gardez votre produit, vos prix, votre marque et votre relation client.
+Ce qui passe à Itaja, c'est la machinerie légale et financière de la vente —
+celle qui n'a jamais été votre différence.
